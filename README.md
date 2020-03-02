@@ -1,2 +1,2 @@
-# rock_Paper_Scissors
+# rock Paper Scissors game
 Some functions that will play the game Rock, Paper and Scissors
