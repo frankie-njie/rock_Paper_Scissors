@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test game</title>
-    <link rel="style.css" href="">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <H2>This is a sample game of Rock Paper and scissors</H2>
-    <h3>First to 5 wins</h3>
-    <p>Choose Your Selection</p>
-    <div class="playerButtons">
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
+    <div class="container">
+        <H2>This is a sample game of Rock Paper and scissors</H2>
+        <h3>First to 5 wins</h3>
+        <p>Choose Your Selection</p>
+        <div class="playerButtons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+
+        </div>
+        <div class="selections">
+            <h4>Player Select's</h4>
+            <p id="playerSelection"></p>
+            <h4>Computer Select's</h4>
+            <p id="computerSelection"></p>
+        </div>
+
+
+
+        <div class="results">
+            <span>Player Score</span>
+            <span id="playerResult"></span>
+        </div>
+        <div class="results">
+            <span>Computer Score</span>
+            <span id="computerResult"></span>
+        </div>
+
+        <h5 id="winner"></h5>
 
     </div>
-    <div class="selections">
-        <h4>Player Select's</h4>
-        <p id="playerSelection"></p>
-        <h4>Computer Select's</h4>
-        <p id="computerSelection"></p>
-    </div>
-
-
-
-    <div class="results">
-        <span>Player Score</span>
-        <span id="playerResult"></span>
-    </div>
-    <div class="results">
-        <span>Computer Score</span>
-        <span id="computerResult"></span>
-    </div>
-
-    <h5 id="winner"></h5>
 
 </body>
 <script src="scripts.js"></script>
