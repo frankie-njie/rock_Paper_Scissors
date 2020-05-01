@@ -28,9 +28,13 @@
  button {
      width: 80px;
      height: 30px;
-     background-color: cornflowerblue;
+     background-color: #2d6cdf;
      color: white;
      margin: 0 5% 2% 2%;
      padding: auto;
-     align-items: center;
+ }
+ 
+ .playerButtons {
+     display: flex;
+     flex-direction: row;
  }
